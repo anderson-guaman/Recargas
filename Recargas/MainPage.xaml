@@ -36,16 +36,16 @@
                 <RadioButton Content="$3" 
                              GroupName="Amount" 
                              Value="3" 
-                             CheckedChanged="OnAmountChanged" />
+                             CheckedChanged="SeleccionValorRecarga" />
                 <RadioButton Content="$5" 
                              GroupName="Amount" 
                              Value="5" 
                              IsChecked="True" 
-                             CheckedChanged="OnAmountChanged" />
+                             CheckedChanged="SeleccionValorRecarga" />
                 <RadioButton Content="$10" 
                              GroupName="Amount" 
                              Value="10" 
-                             CheckedChanged="OnAmountChanged" />
+                             CheckedChanged="SeleccionValorRecarga" />
             </StackLayout>
 
             <Label x:Name="AGlabelSeleccion" 

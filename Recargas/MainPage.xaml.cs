@@ -15,15 +15,16 @@
             AGlabelSeleccion.Text = $"Ha seleccionado una recarga de: {valorSeleccionado} dólares";
         }
 
-        private async void OnRechargeButtonClicked(object sender, EventArgs e)
+        private async void btnRecargar(object sender, EventArgs e)
         {
             bool confirmacion = await DisplayAlert("Confirmación", "¿Desea confirmar la recarga?", "Sí", "No");
 
             if (confirmacion)
             {
-                // Lógica de recarga
+                
                 await DisplayAlert("Recarga", "Recarga realizada exitosamente", "OK");
             }
+
         }
     }
 

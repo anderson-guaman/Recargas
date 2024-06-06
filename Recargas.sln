@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recargas", "Recargas\Recargas.csproj", "{225A37F6-B8E7-4762-AD2D-521A9C3D9EEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{225A37F6-B8E7-4762-AD2D-521A9C3D9EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225A37F6-B8E7-4762-AD2D-521A9C3D9EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225A37F6-B8E7-4762-AD2D-521A9C3D9EEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{225A37F6-B8E7-4762-AD2D-521A9C3D9EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225A37F6-B8E7-4762-AD2D-521A9C3D9EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225A37F6-B8E7-4762-AD2D-521A9C3D9EEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFF854AD-366A-4ECA-A2A7-1E82750CD4EE}
+	EndGlobalSection
+EndGlobal

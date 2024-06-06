@@ -57,7 +57,7 @@
                     BackgroundColor="#6200EE" 
                     TextColor="White" 
                     HorizontalOptions="Center" 
-                    Clicked="OnRechargeButtonClicked" />
+                    Clicked="btnRecargar" />
         </StackLayout>
     </ScrollView>
 

@@ -2,6 +2,8 @@
 {
     public partial class MainPage : ContentPage
     {
+        int count = 0;
+
         public MainPage()
         {
             InitializeComponent();
@@ -13,16 +15,7 @@
             AGlabelSeleccion.Text = $"Ha seleccionado una recarga de: {valorSeleccionado} dólares";
         }
 
-        private async void btnRecargar(object sender, EventArgs e)
-        {
-            bool confirmacion = await DisplayAlert("Confirmación", "¿Desea confirmar la recarga?", "Sí", "No");
-
-            if (confirmacion)
-            {
-                // Lógica de recarga
-                await DisplayAlert("Recarga", "Recarga realizada exitosamente", "OK");
-            }
-        }
+        
     }
 
 }
